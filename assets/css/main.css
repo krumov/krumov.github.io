@@ -194,24 +194,35 @@ header h1 {
 
 @media screen and (max-width: 480px) {
    header h1 {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    width: 100%;
-    margin: -30px 0 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font: 50px/50px Neucha;
-    text-transform: uppercase
-}
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        width: 100%;
+        margin: -30px 0 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font: 50px/50px Neucha;
+        text-transform: uppercase
+    }
+    
+    header>div {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0)
+    }
 }
 
 header>div {
     position: absolute;
-    bottom: 90px;
+    bottom: 70px;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
@@ -254,7 +265,7 @@ header>div a:hover {
     background: #dab712
 }
 .section {
-    margin: 0 0 200px
+    margin: 0 0 120px
 }
 .section>h2 {
     font: 60px/60px Neucha;

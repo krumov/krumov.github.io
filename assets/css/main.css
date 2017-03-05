@@ -133,11 +133,15 @@ svg {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 90%;
+    height: 90%;
+    max-width: 450px;
+    max-height: 700px;
     background: #fff;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
     z-index: 2016;
-    padding: 30px
+    padding: 30px;
+    overflow-y:auto;
 }
 
 .kumsrules strong {

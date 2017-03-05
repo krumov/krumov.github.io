@@ -358,3 +358,8 @@ header>div a:hover {
 .section.rsvp #rsvp-form a:hover{
     text-decoration: underline;
 }
+
+#google-map{
+    height: 620px;
+    width:100%;
+}

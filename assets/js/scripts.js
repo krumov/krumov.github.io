@@ -22,4 +22,9 @@ jQuery(document).ready( function() {
         jQuery('.kumsrules').removeClass('active');
         jQuery('.fader').removeClass('active');
     });
+        
+    jQuery('.kumsrules').on('click', function() {
+        jQuery('.kumsrules').removeClass('active');
+        jQuery('.fader').removeClass('active');
+    });
 });

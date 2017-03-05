@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 400 14px/1 'Open Sans', Arial, sans-serif;
+    color: #666;
+    background: #fff;
+    height:100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: normal;
+    margin: 0
+}
+
+dl,
+dt,
+dd,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+ol {
+    margin: 0;
+    padding: 0 0 0 20px
+}
+form,
+input,
+textarea,
+select {
+    font: 400 16px/16px 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    resize: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 0
+}
+
+a {
+    text-decoration: none;
+    color: #666
+}
+
+p {
+    margin: 0
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none
+}
+
+header,
+nav,
+section,
+main,
+article,
+aside,
+figure,
+footer,
+iframe,
+object,
+svg {
+    display: block;
+    margin: 0
+}
+
+.clear:before,
+.clear:after {
+    content: "";
+    display: table
+}
+
+.clear:after {
+    clear: both
+}
+
+.clear {
+    zoom: 1
+}
+
+::-ms-clear {
+    display: none
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px 0
+}
+
+.fader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1109
+}
+
+.fader.active {
+    display: block
+}
+
+.kumsrules {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    z-index: 2016;
+    padding: 30px
+}
+
+.kumsrules strong {
+    display: block;
+    margin: 0 0 20px;
+    text-align: center;
+    font: 30px/30px Neucha
+}
+
+.kumsrules ol li {
+    margin: 15px 0 0
+}
+
+.kumsrules ol li:first-of-type {
+    margin: 0
+}
+
+.kumsrules.active {
+    display: block
+}
+
+header {
+    background: url(../img/header.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    height: 100% !important;
+}
+
+header h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    margin: -30px 0 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font: 80px/80px Neucha;
+    text-transform: uppercase
+}
+
+header>div {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0)
+}
+
+header>div .date {
+    display: block;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0 0 8px
+}
+
+header>div .location {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    margin: 0 0 40px
+}
+
+header>div a {
+    display: block;
+    background: #eecd31;
+    padding: 25px 50px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    transition: background .2s linear;
+    -moz-transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+    -o-transition: background .2s linear
+}
+header>div a:hover {
+    background: #dab712
+}
+.section {
+    margin: 0 0 200px
+}
+.section>h2 {
+    font: 60px/60px Neucha;
+    background: url(../img/title-bg.png) no-repeat center center;
+    height: 110px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff
+}
+.section.schedule {
+    background: url(../img/section-schedule-bg.png) no-repeat center 200px
+}
+.section.schedule>div {
+    max-width: 700px;
+    margin: 55px auto
+}
+.section.schedule>div:nth-of-type(2) {
+    max-width: 480px;
+    text-align: right
+}
+.section.schedule>div:nth-of-type(3) {
+    text-align: center;
+    padding: 0 70px 0 0;
+    margin-top: 135px
+}
+.section.schedule>div:nth-of-type(4) {
+    text-align: center;
+    padding: 0 200px 0 0;
+    margin-top: 190px
+}
+.section.schedule>div span {
+    display: block;
+    color: #111
+}
+.section.schedule>div .time {
+    font: italic 900 72px/72px Lato, sans-serif;
+    margin: 0 0 10px
+}
+.section.schedule>div .action {
+    font: 24px/24px Neucha;
+    text-transform: uppercase;
+    margin: 0 0 0 60px
+}
+.section.faq {
+    background: url(../img/section-faq-bg.png) no-repeat center 200px
+}
+.section.faq ul {
+    max-width: 850px;
+    margin: 160px auto 0
+}
+.section.faq ul li {
+    float: left;
+    width: 32%;
+    color: #111;
+    margin: 0 0 100px
+}
+
+.section.faq ul li:nth-of-type(2n+1) {
+    width: 68%
+}
+.section.faq ul li strong {
+    display: block;
+    font: 30px/30px Neucha;
+    margin: 0 0 8px;
+    text-transform: uppercase
+}
+.section.faq ul li p {
+    font: 300 18px/18px 'Open Sans', sans-serif
+}
+.section.map {
+    background: url(../img/section-map-top-bg.png) no-repeat center 200px
+}
+.section.map div {
+    padding: 0 0 25px;
+    background: url(../img/section-map-bottom-bg.png) no-repeat center bottom
+}
+.section.map iframe {
+    margin: 190px auto 0
+}
+.section.insta {
+    background: url(../img/section-insta-bg.png) no-repeat center 200px;
+    padding: 0 0 180px
+}
+.section.insta div {
+    max-width: 780px;
+    margin: 150px auto 0
+}
+.section.insta div a {
+    float: left
+}
+.section.insta div a span {
+    display: block;
+    width: 260px;
+    height: 260px;
+    background-position: center center
+}
+.section.rsvp {
+    background: url(../img/section-rsvp-bg.png) no-repeat center 200px;
+    margin: 0;
+}
+
+.section.rsvp #rsvp-form{
+    height:310px;
+    width: auto;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 100px;
+}
+
+.section.rsvp #rsvp-form #kumsrules{
+    color: #A16A6B !important;
+}
+
+.section.rsvp #rsvp-form #kumsrules:hover{
+    cursor: pointer;
+    color: #A16A6B;
+}
+
+.section.rsvp #rsvp-form a{
+    color: #A16A6B;
+}
+
+.section.rsvp #rsvp-form a:hover{
+    text-decoration: underline;
+}

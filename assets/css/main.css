@@ -348,19 +348,16 @@ header>div a:hover {
 }
 
 .section.rsvp #rsvp-form #kumsrules{
-    color: #A16A6B !important;
+    color: #666 !important;
+    text-decoration: underline;
 }
 
 .section.rsvp #rsvp-form #kumsrules:hover{
     cursor: pointer;
-    color: #A16A6B;
 }
 
 .section.rsvp #rsvp-form a{
-    color: #A16A6B;
-}
-
-.section.rsvp #rsvp-form a:hover{
+    color: #666;
     text-decoration: underline;
 }
 
